@@ -31,7 +31,7 @@ body {
     display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  
   border-radius: 25px;
   
 }
@@ -111,5 +111,13 @@ color: hsl(0, 0%, 95%);
 }
 .button:active {
   transform: scale(0.9);
+}
+
+@media only screen and (max-width: 844px) {
+  body {
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+  }
 }
 
