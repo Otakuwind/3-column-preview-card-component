@@ -65,15 +65,51 @@ body {
 .card>img{
      margin-bottom: 36px;
      padding-top: 20px;
-     padding-left: 20px;
+     padding-left: 40px;
      padding-bottom: 20px;
   
 }
 h3{
     padding-top: 2px;
     color: hsl(0, 0%, 95%);
-
     font-family: "Big Shoulders Display", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+    padding-left: 40px;
 }
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13.8px;
+  line-height: 1.5rem;
+  font-weight: 400;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+}
+.button{
+    
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  padding: 19px;
+  width: 160px;
+  border-radius: 25px;
+  outline: none;
+border: 2px solid hsl(0, 0%, 95%); 
+  font-family: inherit;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+.button:hover {
+  background-color: transparent;
+color: hsl(0, 0%, 95%);
+  
+}
+.button:active {
+  transform: scale(0.9);
+}
+
